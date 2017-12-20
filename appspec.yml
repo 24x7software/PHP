@@ -3,3 +3,12 @@ os: linux
 files:
    - source: /
      destination: /var/www/html
+permissions:
+   - object: /var/www/html
+     pattern: "**"
+     owner: nginx
+     group: nginx
+     mode: 755
+     type:
+       - file
+runas: root

@@ -11,4 +11,3 @@ permissions:
      mode: 755
      type:
        - file
-runas: root

@@ -2,11 +2,11 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /var/www/html/iss_aws
+     destination: /var/www/html/jayesh
 permissions:
-   - object: /var/www/html/iss_aws
+   - object: /var/www/html/jayesh
      pattern: "**"
-     owner: ec2-user
+     owner: root
      group: nginx
      mode: 755
      type:

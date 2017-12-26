@@ -1,10 +1,10 @@
-version: 0.0
+version: 0.1
 os: linux
 files:
    - source: /
-     destination: /var/www/html/iss_aws
+     destination: /var/www/html
 permissions:
-   - object: /var/www/html/iss_aws
+   - object: /var/www/html
      pattern: "**"
      owner: nginx
      group: nginx

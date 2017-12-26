@@ -20,7 +20,7 @@ $router->get('contact', 'Login@contact');
     $router->get('/', function () use ($router) {
 
 		// $BASEURL = URL::to('/');
-		$BASEURL = 'https://dev4.isscommand.com';
+		$BASEURL = 'http://54.190.59.32';
 		// setcookie("TestCookie", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjUzNzU4NjM3NDUiLCJuYW1lIjoiU2Fua2V0IENoaW50YWwiLCJhZGQiOmZhbHNlfQ.KUa4VWVja-wsPDvXix1cZDGpDhxJbcID-G2-UvfHpnQ", time()+3600, "/", "isscommand.com", 1);
 		return view('login', ['BASEURL' => $BASEURL]);
 	});

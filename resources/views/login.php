@@ -14,8 +14,8 @@
 	<link href="http://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	<link href="<?php echo $BASEURL.'/'; ?>css/login.css" rel="stylesheet" type="text/css">
-	<link href="<?php echo $BASEURL.'/'; ?>favicon.ico" rel="icon" type="image/x-icon">
+	<link href="/css/login.css" rel="stylesheet" type="text/css">
+	<link href="/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 <body>
 	<div id="main_container">
@@ -24,7 +24,7 @@
                 <div class="col-md-4 col-sm-12"></div>
                 <div class="col-lg-4 col-sm-12 card">
                     <center>
-                        <img class="img" src="images/logo.png" style="width:150px">
+                        <img class="img" src="/images/logo.png" style="width:150px">
                     </center><br>
                     <form id="login_form" name="login_form">
                         <div class="form-group">
@@ -65,11 +65,8 @@
         // }
     </script>
 
-	<script src="<?php echo $BASEURL.'/'; ?>js/jquery.min.js"> </script>
-	<script src="<?php echo $BASEURL.'/'; ?>js/tether/tether.min.js"> </script>
-	<script src="<?php echo $BASEURL.'/'; ?>js/bootstrap/bootstrap.min.js"> </script>
-	<script src="<?php echo $BASEURL.'/'; ?>js/kendoui/kendo.all.min.js"> </script>
-	<script src="<?php echo $BASEURL.'/'; ?>js/default.js"> </script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"> </script>
+	<script src="/js/default.js"> </script>
     <script type="text/javascript">
 	$(document).ready(function() {
 		$("#login_submit_button").kendoButton();

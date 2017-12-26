@@ -11,7 +11,7 @@
 	<meta content="Your company name" name="author">
 	<link href="http://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.common.min.css" rel="stylesheet" type="text/css">
 	<link href="http://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.blueopal.min.css" rel="stylesheet" type="text/css">
-	<link href="cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js" rel="stylesheet" type="text/css">
+	<link href="http://cdnjs.cloudflare.com/ajax/libs/tether/1.4.3/js/tether.min.js" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="<?php echo $BASEURL.'/'; ?>css/login.css" rel="stylesheet" type="text/css">

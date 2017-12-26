@@ -65,16 +65,16 @@
         // }
     </script>
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"> </script>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"> </script>
 	<script src="/js/default.js"> </script>
     <script type="text/javascript">
 	$(document).ready(function() {
-		$("#login_submit_button").kendoButton();
+		// $("#login_submit_button").kendoButton();
 		$("#login_form").submit(function(e) {
 			e.preventDefault();
 			$.ajax({
 				url: 'authenticate',
-				method: "POST",
+				type: "POST",
                 // xhrFields: {    withCredentials: true},
 				data: get_all_input_values('#login_form :input'),
 				success: function(result) {

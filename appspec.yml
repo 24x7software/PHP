@@ -4,7 +4,7 @@ files:
    - source: /
      destination: /var/www/html/iss_aws
 permissions:
-   - object: /var/www/html
+   - object: /var/www/html/iss_aws
      pattern: "**"
      owner: nginx
      group: nginx

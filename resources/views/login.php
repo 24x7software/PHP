@@ -41,7 +41,7 @@
                             <input class="k-checkbox" id="remember_me" name="remember_me" type="checkbox" value="1"> <label class="k-checkbox-label" for="remember_me">Remember me</label>
                         </div>
                         <button class="form-control bg-primary" id="login_submit_button" name="submit" type="submit">Sign in</button>
-                        <p>Copyright 2017</p>
+                        <p>Copyright 2018 - 24x7 Software</p>
                     </form>
                 </div>
             </div>
